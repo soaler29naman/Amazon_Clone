@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Home.css";
 import Product from './Product';
+
 function Home() {
   return (
     <div className="home">
@@ -48,7 +49,7 @@ function Home() {
                 <Product
                     id="5"
                     title="Nothing Phone (2) 5G (Dark Grey, 12GB RAM, 256GB"
-                    price="56999"
+                    price={56999}
                     image="https://m.media-amazon.com/images/I/713rQyFyeXL._SX385_.jpg"
                     rating={4}
                 />
